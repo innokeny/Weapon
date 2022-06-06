@@ -7,13 +7,7 @@ namespace LAB4
     {
         static void Main(string[] args)
         {
-            int khifes, machineguns;
-            Console.WriteLine("Введите количество ножей: ");
-            khifes = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите количество пулеметов: ");
-            machineguns = Convert.ToInt32(Console.ReadLine());
-            calculator calculator = new calculator();
-            Console.WriteLine("Стоимость вооружения для взвода составляет: " + calculator.Calculating(khifes, machineguns) + " руб.");
+            
         }
     }
 }
